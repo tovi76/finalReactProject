@@ -1,0 +1,84 @@
+#root {
+
+  /* text-align: center; */
+  width: 100%;
+  text-align: center;
+  background-color: #7c7070;
+  /* z-index: -1; */
+  -webkit-text-fill-color: rgb(162, 162, 162);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+  background-color: #7c7070;
+  width: 100%;
+
+}
+
+.logo {
+  height: 8em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #730023aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+ @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #783d3d;
+}
+/* .card1{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:2em;
+
+
+} */
+
+
+.nuv-bar {
+   position: relative;
+   z-index: -1;
+  
+}
+
+
+.nuv-bar:before {
+  content: '';
+  position: relative;
+  top: 60px;;
+  bottom: 5;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Increase the height value to increase the NUV */
+  background-color: #7c7070; /* Set the desired color of the NUV */
+  margin-top: 15px;
+  z-index: -1;
+
+}

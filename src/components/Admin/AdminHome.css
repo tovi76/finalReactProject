@@ -1,0 +1,50 @@
+.AdminHome{
+    z-index: 4;
+    top:80px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    margin-top: 100px;
+    width: 150%;
+
+
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .line {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(111, 1, 30);
+    animation: lineAnimation 1.5s infinite linear;
+  }
+  
+  .title {
+    margin: 0 5px;
+  }
+  
+  @keyframes lineAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(350%);
+    }
+  }
+  .title {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .title::before,
+  .title::after {
+    content: "";
+    position: relative;
+    height: 2px;
+    }
+    .MuiContainer-root{
+        width: 100%;
+ 
+    }
+    

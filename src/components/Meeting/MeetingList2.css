@@ -1,0 +1,22 @@
+.scrollable-component {
+    height: 300px;
+    width: 600px;
+    overflow:visible ; 
+  }
+  .card1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 2em;
+    max-width: 30em;
+
+  }
+  .parent-container .card1 {
+    display: flex;
+    flex-direction: row;  }
+  
+
+    .MuiContainer-root {
+      width: 100%;
+    }
